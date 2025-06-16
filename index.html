@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+  <meta chartset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-escale=1.0"
+  <title>Inicio | Mi tienda</title>
+    <link rel="stylesheet" href="CSS/estilos.css">
+</head>
+<body>
+  <header>
+    <h1>Mi tienda</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="carrito.html">Carrito</a></li>
+        </ul>
+    </nav>
+    <section class="busqueda">
+      <input type="text" id="buscador"
+        placeholder="buscar productos.."
+        oninput="filtrarproductos()"/>
+    </section>
+  </header>
+  <main>
+    <h2>🛍️bienvenido a nuestra tienda en linea🛍️</h2>
+    <p>encuentra los mejores productos al mejor precio</p>
+    <section class="ofertas">
+      <h2>🐥ofertas del dia🐥</h2>
+      <div class="productos">
+        <figure class="producto">
+        <img class="/storage/emulated/0/Pictures/81GrCeuCzxL._AC_SL1500_.jpg" alt="laptop gamer"/>
+        <figcaption>
+          <h3>Redmi note 14 pro</h3>
+          <p class="descripcion">memoria Ram 8 gb - procesador mediatek</p>
+          <p class="precio-oferta"><del>$15,000.00</del>$12,999.00</p>
+          <p class="rating">⭐⭐⭐⭐⭐</p>
+          <button onclick="agregaralcarrito"('laptop gamer',12999)"></button>
+        </figcaption>
+        </figure> 
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Mi tienda</p>
+  </footer>
+  <script src="js/main.js"></script>"
+  <h1>
+    
+    tienda en linea
+  </h1>
+</body>
+</html>

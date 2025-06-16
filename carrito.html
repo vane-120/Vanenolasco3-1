@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+  <meta chartset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-escale=1.0"
+  <title>Mi tienda en linea</title>
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <link rel="stylesheet" href="CSS/responsive.css">
+</head>
+<body>
+  <header>
+    <h1>Mi tienda</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="carrito.html">Carrito</a></li>
+        </ul>
+    </nav>
+    <section class="busqueda">
+      <input type="text" id="buscador"
+        placeholder="buscar productos.."
+        oninput="filtrarproductos()"/>
+    </section>
+  </header>
+  <main>
+    <section class="carrito-lista">
+      <h2>🛒tu carrito de compras</h2>
+      <ul id="lista-carrito"></ul>
+      <p id="total-carrito" class="total">total:$0.00</p>
+      <button id="btn-confirmar" class="btn-confirmar">✅confirmar compra</button>
+    </section>
+  </main>
+  <h1>
+    tienda en linea
+  </h1>
+</body>
+</html>
